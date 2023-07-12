@@ -20,43 +20,13 @@ function Default(html) {
         />
         <link rel="stylesheet" href="/style.css" />
       </head>
-      <body>
-        <nav>
-          <ul>
-            <li>
-              <a href="/">Home</a>
-            </li>
-            <li>
-              <a href="/breads">Breads</a>
-            </li>
-            <li>
-              <a href="/breads/new">Add a Bread</a>
-            </li>
-          </ul>
-        </nav>
-        <div className="wrapper">
+      <body><div className="wrapper">
           <header>
             <h1>
               <a href="/breads">BreadCRUD</a>
             </h1>
           </header>
           <div className="container">{html.children}</div>
-        </div>
-        <div className="footer">
-          <div className="container">
-            <span className="my-info">
-              ♦︎ Mike W ♦︎{" "}
-              <a href="https://www.linkedin.com/in/michael-m-weisphal/">
-                LinkedIn
-              </a>{" "}
-              ♦︎ <a href="https://github.com/michaelangelesz"> GitHub</a> ♦︎{" "}
-              <a href="https://michaelangelesz.github.io/FSI-Build-a-Portfolio/">
-                Portfolio
-              </a>{" "}
-              ♦︎ <a href="https://www.instagram.com/michaelangelesz/">Insta</a>{" "}
-              ♦︎
-            </span>
-          </div>
         </div>
       </body>
     </html>
