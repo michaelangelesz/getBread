@@ -5,7 +5,7 @@ function Default(html) {
     <html>
       <head>
         <title>Default</title>
-        <link rel="icon" type="image/png" href="images/bread.png" />
+        <link rel="icon" type="image/png" href="/images/bread.png" />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
